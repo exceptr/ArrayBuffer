@@ -16,7 +16,6 @@ test('Создание экземпляра класса Magician', () => {
   expect(answer).toEqual(expectedResult);
 });
 
-
 test('Повышение уровня персонажа', () => {
   const expectedResult = {
     health: 100,
