@@ -1,6 +1,8 @@
-export default class Mathcharacter {
+import Character from './Character';
+
+export default class Mathcharacter extends Character {
   constructor(name, type) {
-    this.name = name;
+    super(name);
     this.type = type;
     this.attackRatio = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1];
     this.stonedValue = false;
